@@ -10,18 +10,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Food Menu"
-        android:textSize="30sp"
+        android:text="Food Order"
+        android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="#FF5722"
-        android:layout_gravity="center_horizontal"
+        android:textColor="#3F51B5"
         android:layout_marginBottom="32dp" />
 
     <CheckBox
         android:id="@+id/cb_pizza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pizza - $10"
+        android:text="Pizza (₹100)"
         android:textSize="18sp"
         android:layout_marginBottom="12dp" />
 
@@ -29,7 +28,7 @@
         android:id="@+id/cb_burger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Burger - $5"
+        android:text="Burger (₹80)"
         android:textSize="18sp"
         android:layout_marginBottom="12dp" />
 
@@ -37,25 +36,35 @@
         android:id="@+id/cb_pasta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pasta - $8"
+        android:text="Pasta (₹120)"
         android:textSize="18sp"
         android:layout_marginBottom="12dp" />
 
     <CheckBox
-        android:id="@+id/cb_coffee"
+        android:id="@+id/cb_cold_drink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Coffee - $3"
+        android:text="Cold Drink (₹50)"
         android:textSize="18sp"
         android:layout_marginBottom="32dp" />
 
     <Button
-        android:id="@+id/btn_order"
+        android:id="@+id/btn_calculate"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="Place Order"
-        android:backgroundTint="#4CAF50"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        android:backgroundTint="#3F51B5"
         android:textColor="#FFFFFF"
-        android:textSize="18sp" />
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_total_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Total Bill: ₹0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

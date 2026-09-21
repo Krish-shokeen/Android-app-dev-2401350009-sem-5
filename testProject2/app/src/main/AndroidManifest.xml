@@ -14,14 +14,14 @@
         <activity
             android:name=".SplashActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".CalculatorActivity" />
         <activity android:name=".CheckboxActivity" />
@@ -37,6 +37,8 @@
         <activity android:name=".FrameLayoutActivity"/>
         <activity android:name=".LinearLayoutDemoActivity"/>
         <activity android:name=".FoodOrderActivity"/>
+        <activity android:name=".FragmentDemoActivity"/>
+        <activity android:name=".LocalizationActivity"/>
 
     </application>
 

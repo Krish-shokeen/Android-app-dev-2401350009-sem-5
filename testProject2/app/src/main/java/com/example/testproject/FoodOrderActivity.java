@@ -3,7 +3,7 @@ package com.example.testproject;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,32 +27,27 @@ public class FoodOrderActivity extends AppCompatActivity {
         CheckBox cbPizza = findViewById(R.id.cb_pizza);
         CheckBox cbBurger = findViewById(R.id.cb_burger);
         CheckBox cbPasta = findViewById(R.id.cb_pasta);
-        CheckBox cbCoffee = findViewById(R.id.cb_coffee);
-        Button btnOrder = findViewById(R.id.btn_order);
+        CheckBox cbColdDrink = findViewById(R.id.cb_cold_drink);
+        Button btnCalculate = findViewById(R.id.btn_calculate);
+        TextView tvTotalBill = findViewById(R.id.tv_total_bill);
 
-        btnOrder.setOnClickListener(v -> {
+        btnCalculate.setOnClickListener(v -> {
             int total = 0;
-            StringBuilder result = new StringBuilder("Selected Items:\n");
 
             if (cbPizza.isChecked()) {
-                total += 10;
-                result.append("Pizza: $10\n");
+                total += 100;
             }
             if (cbBurger.isChecked()) {
-                total += 5;
-                result.append("Burger: $5\n");
+                total += 80;
             }
             if (cbPasta.isChecked()) {
-                total += 8;
-                result.append("Pasta: $8\n");
+                total += 120;
             }
-            if (cbCoffee.isChecked()) {
-                total += 3;
-                result.append("Coffee: $3\n");
+            if (cbColdDrink.isChecked()) {
+                total += 50;
             }
 
-            result.append("\nTotal: $").append(total);
-            Toast.makeText(FoodOrderActivity.this, result.toString(), Toast.LENGTH_LONG).show();
+            tvTotalBill.setText("Total Bill: ₹" + total);
         });
     }
 }
