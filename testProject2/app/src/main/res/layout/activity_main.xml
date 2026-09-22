@@ -41,6 +41,8 @@
         <Button android:id="@+id/btn_open_splash_screen" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Splash Screen Demo" />
         <Button android:id="@+id/btn_open_fragment_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Fragment Demo" />
         <Button android:id="@+id/btn_open_localization" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Localization Demo" />
+        <Button android:id="@+id/btn_open_fab_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="FAB Demo" />
+        <Button android:id="@+id/btn_open_pdf_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Open PDF Notes" />
 
         <!-- Extra space to emphasize scrollability -->
         <View

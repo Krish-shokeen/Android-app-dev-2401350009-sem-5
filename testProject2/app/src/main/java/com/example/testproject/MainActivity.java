@@ -30,5 +30,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_open_food_order).setOnClickListener(v -> startActivity(new Intent(this, FoodOrderActivity.class)));
         findViewById(R.id.btn_open_splash_screen).setOnClickListener(v -> startActivity(new Intent(this, SplashActivity.class)));
         findViewById(R.id.btn_open_fragment_demo).setOnClickListener(v -> startActivity(new Intent(this, FragmentDemoActivity.class)));
+        findViewById(R.id.btn_open_localization).setOnClickListener(v -> startActivity(new Intent(this, LocalizationActivity.class)));
+        findViewById(R.id.btn_open_fab_demo).setOnClickListener(v -> startActivity(new Intent(this, FabDemoActivity.class)));
+        findViewById(R.id.btn_open_pdf_demo).setOnClickListener(v -> startActivity(new Intent(this, PdfDemoActivity.class)));
     }
 }
