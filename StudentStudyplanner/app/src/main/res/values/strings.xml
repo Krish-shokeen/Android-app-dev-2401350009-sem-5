@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Study Planner</string>
+
+    <!-- Page 1: Home Strings -->
+    <string name="welcome_message">Welcome, XYZ!</string>
+    <string name="student_subtitle">B.Tech CSE Student</string>
+    <string name="todays_progress">Today\'s Progress</string>
+    <string name="progress_percentage">75%</string>
+    <string name="subjects_heading">Subjects</string>
+    <string name="subject_java">Java</string>
+    <string name="subject_android">Android</string>
+    <string name="subject_c_prog">C Programming</string>
+    <string name="motivational_quote">"Plan Today\nfor a Brighter Tomorrow"</string>
+    <string name="toast_subject_marked">%s marked as studied</string>
+    <string name="toast_subject_unmarked">%s unmarked</string>
+
+    <!-- Page 2: Add Task Strings -->
+    <string name="title_add_task">Add New Task</string>
+    <string name="task_title_label">Task Title</string>
+    <string name="task_title_hint">e.g. Study Java</string>
+    <string name="task_desc_label">Task Description</string>
+    <string name="task_desc_hint">e.g. Complete chapter 5</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="priority_label">Priority</string>
+    <string name="select_date_label">Select Date</string>
+    <string name="select_time_label">Select Time</string>
+    <string name="save_task_btn">Save Task</string>
+    <string name="priority_important">Important</string>
+    <string name="priority_practice">Practice</string>
+    <string name="priority_assignment">Assignment</string>
+    <string name="err_task_empty">Please enter a task name</string>
+    <string name="msg_task_saved">Task Saved Successfully</string>
+    <string name="default_date">Not Set</string>
+    <string name="default_time">Not Set</string>
+    <string name="subject_cprog">C Programming</string>
+
+    <!-- Page 3: Progress Strings -->
+    <string name="title_progress">My Progress</string>
+    <string name="todays_study">Today\'s Study</string>
+    <string name="keep_going_subtitle">Keep going, you can do it!</string>
+    <string name="label_subject">Subject: %s</string>
+    <string name="label_priority">Priority: %s</string>
+    <string name="progress_label">Progress</string>
+    <string name="btn_view_details">VIEW DETAILS ></string>
+    <string name="consistency_quote">"Consistency\ndelivers results."</string>
+    <string name="msg_no_task">Complete Android UI</string> <!-- Fallback text matching mockup -->
+    <string name="fallback_subject">Android</string>
+    <string name="fallback_priority">Important</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_home">Home</string>
+    <string name="menu_add_task">Add Task</string>
+    <string name="menu_my_progress">My Progress</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+    <string name="about_dialog_title">About</string>
+    <string name="about_dialog_message">Study Planner v1.0\nDeveloped by krish\nCourse: Android Application Development</string>
+    <string name="ok">OK</string>
+
+    <!-- Placeholders / Descriptions -->
+    <string name="title_settings">Settings Placeholder</string>
+    <string name="title_todays_tasks">Today\'s Tasks Placeholder</string>
+    <string name="content_desc_profile">Profile Picture</string>
+    <string name="content_desc_fab">Add New Task</string>
+</resources>

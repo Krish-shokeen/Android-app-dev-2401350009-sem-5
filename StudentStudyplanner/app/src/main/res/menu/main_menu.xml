@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- The settings icon is removed from the toolbar so it shows up in the 3-dot overflow menu, matching the image. -->
+    <item
+        android:id="@+id/menu_home"
+        android:title="@string/menu_home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_add_task"
+        android:title="@string/menu_add_task"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_my_progress"
+        android:title="@string/menu_my_progress"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/menu_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"
+        app:showAsAction="never" />
+</menu>

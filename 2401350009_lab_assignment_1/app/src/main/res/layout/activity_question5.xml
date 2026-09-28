@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Programming Languages"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkJavaQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java" />
+
+    <CheckBox
+        android:id="@+id/checkPythonQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python" />
+
+    <CheckBox
+        android:id="@+id/checkCppQ5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++" />
+
+    <Button
+        android:id="@+id/btnSubmitLangs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme Colors -->
+    <color name="colorPrimary">#4B2893</color> <!-- Deep Purple -->
+    <color name="colorPrimaryVariant">#311B61</color>
+    <color name="colorAccent">#FF4081</color> <!-- Pink FAB -->
+    <color name="teal">#48C5B4</color>
+
+    <color name="backgroundColor">#E8EAF6</color> <!-- Light Purple/Blue Background -->
+    <color name="surfaceColor">#FFFFFF</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="progressGreen">#4CAF50</color> <!-- Green Progress Bar -->
+    <color name="progressTrackColor">#E0E5EC</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#2E3A59</color>
+    <color name="textColorSecondary">#8F9BB3</color>
+
+    <!-- Button Colors -->
+    <color name="buttonPurple">#6200EA</color>
+</resources>

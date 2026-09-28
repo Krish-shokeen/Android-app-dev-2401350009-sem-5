@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="300dp"
+    android:viewportWidth="400"
+    android:viewportHeight="300">
+
+    <!-- Sky Gradient Background -->
+    <path android:pathData="M0,0 h400 v300 h-400 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startY="0"
+                android:startX="200"
+                android:endY="300"
+                android:endX="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFD3B6" />
+                <item android:offset="0.5" android:color="#FFAAA5" />
+                <item android:offset="1.0" android:color="#1E2A5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mountain Layer 1 (Back) -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M-50,300 L120,130 L280,240 L450,150 L450,300 Z" />
+
+    <!-- Mountain Layer 2 (Middle) -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M-20,300 L180,180 L350,260 L450,200 L450,300 Z" />
+
+    <!-- Mountain Layer 3 (Front Base) -->
+    <path
+        android:fillColor="#112A46"
+        android:pathData="M0,260 Q100,230 200,260 T400,250 L400,300 L0,300 Z" />
+</vector>

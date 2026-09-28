@@ -33,5 +33,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_open_localization).setOnClickListener(v -> startActivity(new Intent(this, LocalizationActivity.class)));
         findViewById(R.id.btn_open_fab_demo).setOnClickListener(v -> startActivity(new Intent(this, FabDemoActivity.class)));
         findViewById(R.id.btn_open_pdf_demo).setOnClickListener(v -> startActivity(new Intent(this, PdfDemoActivity.class)));
+        findViewById(R.id.btnAbout).setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AboutActivity.class)));
     }
 }

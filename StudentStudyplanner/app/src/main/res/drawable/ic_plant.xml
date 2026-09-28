@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Blue Pot -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M7,15 L17,15 L15,22 L9,22 Z" />
+
+    <!-- Leaves -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M12,15 C10,12 8,10 6,12 C8,14 10,16 12,15 Z M12,15 C14,12 16,10 18,12 C16,14 14,16 12,15 Z M12,15 C12,10 10,5 12,3 C14,5 12,10 12,15 Z" />
+</vector>

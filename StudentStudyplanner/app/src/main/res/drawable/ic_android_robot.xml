@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Simplified Android Robot holding books -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M17.6,9.48l1.84,-3.18c0.16,-0.28 0.07,-0.64 -0.22,-0.8 -0.28,-0.16 -0.64,-0.07 -0.8,0.22L16.5,9.06c-1.3,-0.6 -2.85,-0.93 -4.5,-0.93 -1.65,0 -3.2,0.33 -4.5,0.93L5.58,5.72c-0.16,-0.28 -0.52,-0.37 -0.8,-0.22 -0.28,0.16 -0.37,0.52 -0.22,0.8L6.4,9.48C3.86,11.02 2.11,13.79 2,17h20c-0.11,-3.21 -1.86,-5.98 -4.4,-7.52zM7.5,14.5c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1 1,0.45 1,1 -0.45,1 -1,1zM16.5,14.5c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1 1,0.45 1,1 -0.45,1 -1,1z" />
+
+    <!-- Stack of Books -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M8,17 h8 v2 h-8 z" />
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M7,19 h10 v2 h-10 z" />
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M6,21 h12 v2 h-12 z" />
+</vector>

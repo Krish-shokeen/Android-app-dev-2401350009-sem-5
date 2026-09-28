@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/editName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name" android:layout_marginTop="32dp"/>
+    <EditText android:id="@+id/editEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Email" android:inputType="textEmailAddress" />
+    <EditText android:id="@+id/editPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone Number" android:inputType="phone" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gender" android:layout_marginTop="8dp"/>
+    <RadioGroup android:id="@+id/radioGroupGender" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <RadioButton android:id="@+id/radioMale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Male" />
+        <RadioButton android:id="@+id/radioFemale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female" />
+    </RadioGroup>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Programming Languages" android:layout_marginTop="8dp"/>
+    <CheckBox android:id="@+id/checkJava" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Java" />
+    <CheckBox android:id="@+id/checkPython" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Python" />
+    <CheckBox android:id="@+id/checkCpp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C++" />
+
+    <Button android:id="@+id/btnSubmit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Submit" android:layout_marginTop="16dp" />
+</LinearLayout>

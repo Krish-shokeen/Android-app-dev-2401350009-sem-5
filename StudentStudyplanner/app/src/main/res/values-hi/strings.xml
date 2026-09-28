@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">स्टडी प्लानर</string>
+
+    <!-- Page 1: Home Strings -->
+    <string name="welcome_message">नमस्ते, XYZ!</string>
+    <string name="student_subtitle">बी.टेक सीएसई छात्र</string>
+    <string name="todays_progress">आज की प्रगति</string>
+    <string name="progress_percentage">75%</string>
+    <string name="subjects_heading">विषय</string>
+    <string name="subject_java">जावा</string>
+    <string name="subject_android">एंड्रॉइड</string>
+    <string name="subject_c_prog">सी प्रोग्रामिंग</string>
+    <string name="motivational_quote">"सुनहरे कल के लिए\nआज योजना बनाएं"</string>
+    <string name="toast_subject_marked">%s को पढ़ा हुआ चिह्नित किया गया</string>
+    <string name="toast_subject_unmarked">%s से चिह्न हटाया गया</string>
+
+    <!-- Page 2: Add Task Strings -->
+    <string name="title_add_task">नया टास्क जोड़ें</string>
+    <string name="task_title_label">टास्क का शीर्षक</string>
+    <string name="task_title_hint">उदा. जावा पढ़ें</string>
+    <string name="task_desc_label">टास्क का विवरण</string>
+    <string name="task_desc_hint">उदा. अध्याय 5 पूरा करें</string>
+    <string name="select_subject">विषय चुनें</string>
+    <string name="priority_label">प्राथमिकता</string>
+    <string name="select_date_label">तारीख चुनें</string>
+    <string name="select_time_label">समय चुनें</string>
+    <string name="save_task_btn">टास्क सेव करें</string>
+    <string name="priority_important">महत्वपूर्ण</string>
+    <string name="priority_practice">अभ्यास</string>
+    <string name="priority_assignment">असाइनमेंट</string>
+    <string name="err_task_empty">कृपया टास्क का नाम दर्ज करें</string>
+    <string name="msg_task_saved">टास्क सफलतापूर्वक सेव हो गया</string>
+    <string name="default_date">सेट नहीं है</string>
+    <string name="default_time">सेट नहीं है</string>
+    <string name="subject_cprog">सी प्रोग्रामिंग</string>
+
+    <!-- Page 3: Progress Strings -->
+    <string name="title_progress">मेरी प्रगति</string>
+    <string name="todays_study">आज का अध्ययन</string>
+    <string name="keep_going_subtitle">लगे रहो, तुम कर सकते हो!</string>
+    <string name="label_subject">विषय: %s</string>
+    <string name="label_priority">प्राथमिकता: %s</string>
+    <string name="progress_label">प्रगति</string>
+    <string name="btn_view_details">विवरण देखें ></string>
+    <string name="consistency_quote">"निरंतरता से\nसफलता मिलती है।"</string>
+    <string name="msg_no_task">संपूर्ण एंड्रॉइड यूआई</string>
+    <string name="fallback_subject">एंड्रॉइड</string>
+    <string name="fallback_priority">महत्वपूर्ण</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_home">होम</string>
+    <string name="menu_add_task">टास्क जोड़ें</string>
+    <string name="menu_my_progress">मेरी प्रगति</string>
+    <string name="menu_settings">सेटिंग्स</string>
+    <string name="menu_about">बारे में</string>
+    <string name="menu_exit">बाहर निकलें</string>
+
+    <string name="about_dialog_title">बारे में</string>
+    <string name="about_dialog_message">स्टडी प्लानर v1.0\nक्रिश द्वारा विकसित\nकोर्स: एंड्रॉइड एप्लिकेशन डेवलपमेंट</string>
+    <string name="ok">ठीक है</string>
+
+    <!-- Placeholders / Descriptions -->
+    <string name="title_settings">सेटिंग्स प्लेसहोल्डर</string>
+    <string name="title_todays_tasks">आज के टास्क प्लेसहोल्डर</string>
+    <string name="content_desc_profile">प्रोफाइल पिक्चर</string>
+    <string name="content_desc_fab">नया टास्क जोड़ें</string>
+</resources>

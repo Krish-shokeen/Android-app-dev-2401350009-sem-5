@@ -41,6 +41,7 @@
         <activity android:name=".LocalizationActivity"/>
         <activity android:name=".FabDemoActivity"/>
         <activity android:name=".PdfDemoActivity"/>
+        <activity android:name=".AboutActivity"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"

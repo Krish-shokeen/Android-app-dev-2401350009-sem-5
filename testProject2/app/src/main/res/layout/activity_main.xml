@@ -43,6 +43,7 @@
         <Button android:id="@+id/btn_open_localization" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Localization Demo" />
         <Button android:id="@+id/btn_open_fab_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="FAB Demo" />
         <Button android:id="@+id/btn_open_pdf_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Open PDF Notes" />
+        <Button android:id="@+id/btnAbout" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="About" />
 
         <!-- Extra space to emphasize scrollability -->
         <View
