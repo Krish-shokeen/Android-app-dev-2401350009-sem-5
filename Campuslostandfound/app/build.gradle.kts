@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.campuslostandfound"
+    namespace = "com.example.clf"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.campuslostandfound"
+        applicationId = "com.example.clf"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

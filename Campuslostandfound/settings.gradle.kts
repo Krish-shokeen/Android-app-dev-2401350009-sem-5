@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Campus lost and found"
+rootProject.name = "CLF"
 include(":app")
- 
