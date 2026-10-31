@@ -42,6 +42,7 @@
         <activity android:name=".FabDemoActivity"/>
         <activity android:name=".PdfDemoActivity"/>
         <activity android:name=".AboutActivity"/>
+        <activity android:name=".BatteryDemoActivity"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -52,6 +53,14 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
+
+        <receiver
+            android:name=".BatteryReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+            </intent-filter>
+        </receiver>
 
     </application>
 
